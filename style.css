@@ -1,0 +1,58 @@
+.Container {
+	float: left;
+	border: 1px solid rgb(230,230,230);
+	border-radius: 5px;
+	margin-left: 3%;
+	width: 94%;
+	position: relative;
+	padding: 10px 10px 0 10px;
+	margin-top: 1em;
+	margin-bottom: 50px;
+}
+a {
+	text-decoration: none;
+}
+.error {
+	color: red;
+}
+.success {
+	color: green;
+}
+.search-results > span {
+	display: block;
+	clear: left;
+}
+
+
+/* 
+##################
+						Button
+##################
+*/
+a.Button {
+	background: rgb(51,204,255);
+	position: relative;
+	float: left;
+	clear: both;
+	width: 50%;
+	padding: 0.5em;
+	box-shadow: 0 0 2px 2px rgb(230,230,230);
+	margin: 1em 25% 1em 25%;
+	border-radius: 0.5em;
+	color: white;
+	text-align: center;
+}
+	a.Button:active {
+		background: #0084FF;
+	}
+
+@media screen and (min-width: 1024px){
+	.Container {
+		width: 50%;
+		margin-left: 25%;
+	}
+	.form-control {
+		width: 100%;
+		margin-top: 2em;
+	}
+}
